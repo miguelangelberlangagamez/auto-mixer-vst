@@ -1,0 +1,60 @@
+# ---- Build ----
+build/
+out/
+cmake-build-*/
+_deps/
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# ---- Visual Studio / MSVC ----
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.suo
+*.user
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# ---- JUCE (Projucer genera estas carpetas) ----
+JuceLibraryCode/
+Builds/
+*.jucer.bak
+
+# ---- Artefactos de compilacion ----
+*.vst3
+*.component
+*.aaxplugin
+*.dll
+*.exe
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.ilk
+*.obj
+*.o
+*.pdb
+*.idb
+
+# ---- Editores ----
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---- Sistema ----
+.DS_Store
+Thumbs.db
+desktop.ini
